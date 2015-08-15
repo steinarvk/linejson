@@ -37,7 +37,7 @@ Usage example
 $ cat | \
   python -mlinejson compare species eq cat -s | \
   python -mlinejson grep -v breed "N.*" | \
-  python -mlinejson extract name breed --require \
+  python -mlinejson extract name breed --require
 {"species": "cat", "name": "Crookshanks", "breed": "Himalayan Persian"}
 {"species": "dog", "name": "Hachiko", "breed": "Akita"}
 {"species": "cat", "name": "Pangur Ban"}
